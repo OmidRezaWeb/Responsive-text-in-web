@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(18, 0, 18);
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+
+h1{
+    font-size: 2rem;
+    /* @media (width >= 40em){ */
+         /* 640px */
+        /* font-size: 3rem;
+    }
+    @media (width >= 60em){ */
+        /* 960px */
+        /* font-size: 4rem;
+    } */
+    font-size: clamp(2rem, -2rem + 10vw, 4rem);
+}
